@@ -7,7 +7,7 @@ ColorShift is a Python arcade game where players control a red cube on a colorfu
 - [About](#about)
 - [Features](#features)
 - [Imports](#Imports)
-- [Rating: 7/10](#Rating)
+- [Rating: 4/10](#Rating)
 
 # About
 
@@ -23,4 +23,7 @@ random, ursina
 
 # Rating
 
-The project showcases creativity with color-changing floors and dynamic gameplay, providing an engaging experience. However, there's room for improvement in user interface design and game progression to enhance the overall experience.
+The code is rated 4 out of 10 for its use of the Ursina library for game development. However, there are areas for improvement, such as code organization, variable naming, magic numbers, comments, error handling, global variables, and unused code.
+The code lacks proper organization, with functions like `update()` and `input()` defined inside other functions, making it harder to read and maintain. Variable names are unclear or inconsistent, and reusing variable names without resetting them can lead to unexpected behavior. Magic numbers should be defined as constants with meaningful names to improve readability and maintainability.
+Comments are not fully explaining the logic behind certain code blocks, and error handling mechanisms should be implemented to make the code more robust. Encapsulating related variables and functions into classes can improve modularity and reduce global state. Unused code, such as the `floor` variable in the `update()` function, should be removed to improve code clarity and reduce complexity.
+By addressing these points, the code can be enhanced in readability, maintainability, and robustness.
